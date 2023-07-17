@@ -19,7 +19,5 @@ def statistic_entity():
     try:
         return __init__()
     except InvalidRequestError:
-        user = metadata.tables["statistics"]
-        return user
-
-
+        statistic = metadata.tables["statistics"]
+        return statistic
