@@ -1,0 +1,4 @@
+# Test your FastAPI endpoints
+
+GET http://127.0.0.1:8000/get/all/history/16-17-2023/user/1
+Accept: application/json
